@@ -117,3 +117,6 @@ export const languages = [
     name: "Markdown",
   },
 ];
+
+
+export type LanguageType = keyof typeof languageOptions;

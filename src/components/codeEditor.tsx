@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import {
   ResizableHandle,
   ResizablePanel,
@@ -12,7 +12,6 @@ import ThemeToggle from "./ThemeToggle";
 import {
   fileExtensions,
   languageOptions,
-  languages,
   sampleCode,
 } from "@/lib/constants";
 import { useIsMobile } from "@/hooks/use-mobile";
