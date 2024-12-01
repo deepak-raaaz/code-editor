@@ -13,7 +13,7 @@ const Sidebar = ({ selectedLanguage, setSelectedLanguage }: Props) => {
         <div
           key={item.name}
           onClick={() => setSelectedLanguage(item.name as LanguageType)}
-          className={`p-3 border-2 dark:border-slate-700 border-slate-400 cursor-pointer transition-all duration-200 ${
+          className={`p-3 max-sm:p-2  border-2 flex justify-center items-center dark:border-slate-700 border-slate-400 cursor-pointer transition-all duration-200 ${
             selectedLanguage === item.name
               ? "bg-blue-500 text-white"
               : "hover:bg-blue-500 hover:text-white text-slate-700 dark:text-white"
